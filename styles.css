@@ -1,0 +1,210 @@
+﻿body {
+    background-color: #d1d1d1;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Century Gothic'
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding: 10px;
+}
+
+nav li:hover {
+    background-color: black;
+    transition: background-color 350ms linear;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #c4a21c;
+    font-weight: bold
+
+}
+
+td {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px
+}
+
+th {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px
+}
+
+.kontakt {
+    display: flex;
+}
+
+.kontakt img {
+    margin: 0px 50px 0px 0px
+}
+
+p {
+    font-size: 23px
+}
+
+li ul {
+    padding: 0px;
+}
+
+li ul li {
+    list-style-type: none;
+}
+
+li {
+    font-size: 20px
+}
+
+body > div:not(.fullscreen) {
+    margin: 10px 30px 30px 30px
+}
+
+#fotenie_vystav {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background-color: transparent
+}
+
+#fotenie_vystav > h2 {
+    font-weight: 400;
+    letter-spacing: .07em;
+    z-index: 2;
+    font-size: 57px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0px
+}
+
+#fotenie_vystav > a {
+    color: #ffcc00;
+    text-transform: uppercase;
+    font-size: 25px;
+    padding: 5px
+}
+
+#fotenie_vystav > a:hover {
+    background-color: black;
+    transition: background-color 350ms linear;
+}
+
+div.fullscreen > img {
+    z-index: 1;
+}
+
+div.fullscreen {
+    position: relative
+}
+
+h5, h4 {
+    font-size: 23px;
+}
+
+h3 {
+    font-size: 30px;
+    background-color: transparent
+}
+
+h2 {
+    background-color: transparent
+}
+
+sup, i, #additional_info {
+    color: #7d7d7d
+}
+
+#additional_info {
+    font-size: 20px
+}
+
+table > caption {
+    font-size: 25px;
+    font-weight: bold
+}
+
+h1 {
+    text-align: center;
+}
+
+.hlavny_nadpis {
+    font-family: 'Brush Script MT';
+    font-size: 35px
+}
+
+div.newest_pictures img {
+    width: 25%;
+    padding-left: 50px
+}
+
+div.newest_pictures {
+    display: inline-block;
+    text-align: center;
+    vertical-align: central;
+}
+
+#najnovsie_fotky_nadpis {
+    font-weight: 100;
+    text-transform: uppercase;
+    margin: 30px 0px 30px 0px;
+    text-align: center;
+    font-size: 40px
+}
+
+div.fullscreen img {
+    width: 100%;
+}
+
+div.fullscreen {
+    position: relative;
+}
+
+#cennik_fotenia {
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%, -50%);
+    font-weight: 100;
+    text-transform: uppercase;
+    background-color: transparent;
+    text-align: center;
+}
+
+#cennik_fotenia > h2 {
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: .07em;
+    color: white;
+    margin: 0px
+}
+
+#cennik_fotenia > a {
+    color: #ffcc00;
+    font-size: 25px;
+    padding: 5px
+}
+
+#cennik_fotenia > a:hover {
+    background-color: black;
+    transition: background-color 350ms linear;
+}
+
+a {
+    background-color: transparent;
+}
+
+.kontakt > img {
+    width: 30%
+}
